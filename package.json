@@ -6,7 +6,7 @@
     "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
-  "homepage": "https://mkepug.org",
+  "homepage": "http://mkepug.github.io/mkepug.org",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
