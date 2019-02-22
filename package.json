@@ -1,0 +1,13 @@
+{
+  "name": "MKEPUG",
+  "version": "1.0.0",
+  "description": "http://mkepug.org website",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "license": "MIT",
+  "homepage": "https://mkepug.org",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
