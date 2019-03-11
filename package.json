@@ -9,5 +9,9 @@
   "homepage": "http://mkepug.github.io/mkepug.org",
   "devDependencies": {
     "gh-pages": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mkepug/mkepug-site.git"
   }
 }
