@@ -1,14 +1,14 @@
 {
   "name": "mkepug-site",
   "version": "1.0.0",
-  "description": "http://mkepug.org website",
+  "description": "Milwaukee PHP User Group website",
   "scripts": {
     "deploy": "gh-pages -d dist"
   },
   "license": "MIT",
-  "homepage": "http://mkepug.github.io/mkepug.org",
+  "homepage": "https://mkepug.org",
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^6.3.0"
   },
   "repository": {
     "type": "git",
