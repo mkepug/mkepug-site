@@ -14,6 +14,12 @@
         color: #eeeeee;
         line-height: 1.4;
         font-size: 1.2rem;
+        box-sizing: border-box;
+      }
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
       }
       body,
       h1 {
@@ -22,13 +28,13 @@
       body {
         display: flex;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
       }
       div {
         background: rgba(0, 0, 0, 0.9);
         text-align: center;
         padding: 2rem 1rem;
-        width: 100vw;
+        width: 100%;
       }
       hr {
         visibility: hidden;
@@ -70,6 +76,23 @@
       }
       button[type="submit"]:hover {
         background-color: #1B8ABE;
+      }
+
+      @media (max-width: 480px) {
+        .email-form form {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.5rem;
+        }
+
+        input[type="email"] {
+          width: 100%;
+        }
+
+        button[type="submit"] {
+          margin-left: 0;
+        }
       }
     </style>
     <script src="https://static.form-data.com/js/form-data-tools.v1.min.js"></script>
