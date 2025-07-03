@@ -48,7 +48,31 @@
         height: 1.4rem;
         vertical-align: middle;
       }
+      .email-form form {
+        margin-bottom: 1rem;
+      }
+      input[type="email"] {
+        padding: 0.8rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 1rem;
+        width: 250px;
+      }
+      button[type="submit"] {
+        padding: 0.8rem 1.5rem;
+        border-radius: 5px;
+        border: none;
+        background-color: #2CA7E0;
+        color: white;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-left: 0.5rem;
+      }
+      button[type="submit"]:hover {
+        background-color: #1B8ABE;
+      }
     </style>
+    <script src="https://static.form-data.com/js/form-data-tools.v1.min.js"></script>
   </head>
   <body>
     <div>
@@ -57,9 +81,16 @@
       <hr />
       <p>Do you miss hanging out with Joel and Aaron? Check out their <a href="https://show.nocompromises.io">podcast</a>!</p>
       <hr />
-      <p>
-        <a href="https://webchat.freenode.net/?channels=#mkepug" title="Chat with us">#mkepug on Freenode</a>
-      </p>
+      <div class="email-form">
+        <p>We've been thinking about getting the band back together.</p>
+        <p>Would you be interested in attending?</p>
+        <form action="https://api.form-data.com/f/3lNTFkaKkB6joI" method="POST" target="_blank">
+          <input required type="email" name="email" placeholder="Your email address" />
+          <input type="hidden" name="_fd" value="0" class="form-data-marker" />
+          <button type="submit">Notify Me</button>
+        </form>
+      </div>
+      <hr />
       <p>
         <a href="http://twitter.com/mkepug" title="Follow us on Twitter"
           >@mkepug on
