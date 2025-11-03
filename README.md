@@ -1,6 +1,8 @@
-# MKEPUG
+# MKEPUG (Archived)
 
-Milwaukee PHP User's Group. Interested? Check out the website at [http://mkepug.org](http://mkepug.org).
+Previous home of Milwaukee PHP User's Group. No longer active or maintained.
+
+Looking for Joel or Aaron? Check out [Mastering Laravel](https://masteringlaravel.io?ref=mkepug) instead.
 
 ## Deployment
 
